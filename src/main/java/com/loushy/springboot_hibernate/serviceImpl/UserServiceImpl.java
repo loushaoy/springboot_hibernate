@@ -26,4 +26,9 @@ public class UserServiceImpl implements UserService {
     public List<User> getUserByAge(@Param("age") Integer age){
         return userDao.getUserByAge(age);
     }
+
+    @Override
+    public Long getUserId(String name) {
+        return userDao.getUserId(name);
+    }
 }

@@ -11,4 +11,6 @@ public interface UserService {
     List<User> getUserByName(String name);
 
     List<User> getUserByAge(Integer age);
+
+    Long getUserId(String name);
 }

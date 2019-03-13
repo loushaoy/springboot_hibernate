@@ -23,7 +23,7 @@ public class SpringbootHibernateApplicationTests {
         for (User u:list) {
             System.out.println(u);
         }
-        System.out.println(userService.getUserByName("loushaoYong"));
+        System.out.println(userService.getUserId("loushaoYong"));
         System.out.println(userService.getUserByAge(22));
     }
 
